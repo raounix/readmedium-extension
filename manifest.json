@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Open ReadMedium URL",
+    "version": "1.0",
+    "description": "Opens a new tab with the URL in https://readmedium.com/$url format",
+    "permissions": [
+      "tabs"
+    ],
+    "icons": {
+      "48": "icon.svg",       
+      "128": "icon.svg"
+    },
+    "browser_action": {
+      "default_icon": {
+        "48": "icon.svg",
+        "128": "icon.svg"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Open ReadMedium URL"
+    }
+  }
